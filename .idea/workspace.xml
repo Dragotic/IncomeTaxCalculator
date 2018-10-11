@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="" />
+    <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/management/HeadOfHouseholdTaxpayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/management/SingleTaxpayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IncomeTaxCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IncomeTaxCalculator.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IncomeTaxCalculatorProject$HeadOfHouseholdTaxpayerTest.ic" NAME="HeadOfHouseholdTaxpayerTest Coverage Results" MODIFIED="1539256460792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>incometaxcalculator.data.management.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IncomeTaxCalculatorProject$SingleTaxpayerTest.ic" NAME="SingleTaxpayerTest Coverage Results" MODIFIED="1539251894555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>incometaxcalculator.data.management.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1305982659">
@@ -24,7 +43,7 @@
         <counts>
           <entry key="iml" value="1" />
           <entry key="io" value="1" />
-          <entry key="java" value="17" />
+          <entry key="java" value="33" />
           <entry key="management" value="1" />
           <entry key="project" value="1" />
           <entry key="txt" value="3" />
@@ -35,7 +54,7 @@
         <counts>
           <entry key="Eclipse" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="33" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="UML" value="2" />
         </counts>
@@ -43,59 +62,42 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="1117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="1117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-706">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/SingleTaxpayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IncomeTaxCalculator.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/SingleTaxpayerTest.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/HeadOfHouseholdTaxpayerTest.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayerTest.java" />
+        <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java" />
       </list>
     </option>
   </component>
@@ -110,6 +112,7 @@
     <option name="width" value="1680" />
     <option name="height" value="964" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,6 +132,27 @@
               <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -136,15 +160,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539248077157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539259766855" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="incometaxcalculator.data.management" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,64 +196,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphicalInterface">
-    <configuration name="GraphicalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.gui.GraphicalInterface" />
+  <component name="RunManager" selected="JUnit.MarriedFilingSeparatelyTaxpayerTest">
+    <configuration name="SingleTaxpayerTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="IncomeTaxCalculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="incometaxcalculator.gui.*" />
+          <option name="PATTERN" value="incometaxcalculator.data.management.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="incometaxcalculator.data.management" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.management.SingleTaxpayerTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: incometaxcalculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/incometaxcalculator" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="HeadOfHouseholdTaxpayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IncomeTaxCalculator" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: incometaxcalculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="incometaxcalculator.data.management.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="incometaxcalculator.data.management" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.management.HeadOfHouseholdTaxpayerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: src" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="MarriedFilingJointlyTaxpayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IncomeTaxCalculator" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="incometaxcalculator.data.management.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="incometaxcalculator.data.management" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.management.MarriedFilingJointlyTaxpayerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarriedFilingSeparatelyTaxpayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IncomeTaxCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="incometaxcalculator.data.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="incometaxcalculator.data.management" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.management.MarriedFilingSeparatelyTaxpayerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTaxpayerTest.calculateBasicTaxFifthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IncomeTaxCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="incometaxcalculator.data.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="incometaxcalculator.data.management" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.management.SingleTaxpayerTest" />
+      <option name="METHOD_NAME" value="calculateBasicTaxFifthLevel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.All Features in: src" />
-      <item itemvalue="Cucumber java.All Features in: incometaxcalculator" />
-      <item itemvalue="Application.GraphicalInterface" />
+      <item itemvalue="Android JUnit.SingleTaxpayerTest" />
+      <item itemvalue="JUnit.SingleTaxpayerTest.calculateBasicTaxFifthLevel" />
+      <item itemvalue="JUnit.HeadOfHouseholdTaxpayerTest" />
+      <item itemvalue="JUnit.MarriedFilingJointlyTaxpayerTest" />
+      <item itemvalue="JUnit.MarriedFilingSeparatelyTaxpayerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphicalInterface" />
-        <item itemvalue="Cucumber java.All Features in: incometaxcalculator" />
-        <item itemvalue="Cucumber java.All Features in: src" />
+        <item itemvalue="JUnit.MarriedFilingSeparatelyTaxpayerTest" />
+        <item itemvalue="JUnit.MarriedFilingJointlyTaxpayerTest" />
+        <item itemvalue="JUnit.HeadOfHouseholdTaxpayerTest" />
+        <item itemvalue="Android JUnit.SingleTaxpayerTest" />
+        <item itemvalue="JUnit.SingleTaxpayerTest.calculateBasicTaxFifthLevel" />
       </list>
     </recent_temporary>
   </component>
@@ -238,27 +306,47 @@
       <updated>1539096539367</updated>
       <workItem from="1539096551484" duration="5522000" />
       <workItem from="1539170312555" duration="460000" />
-      <workItem from="1539170909731" duration="2379000" />
+      <workItem from="1539170909731" duration="11149000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Features_in__src - 2018.10.09 at 17h 51m 08s.xml">
-      <configuration name="All Features in: src" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="SingleTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.11 at 13h 44m 10s.xml">
+      <configuration name="SingleTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Features_in__src - 2018.10.09 at 17h 53m 15s.xml">
-      <configuration name="All Features in: src" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="SingleTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.11 at 13h 52m 01s.xml">
+      <configuration name="SingleTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Features_in__incometaxcalculator - 2018.10.09 at 17h 54m 19s.xml">
-      <configuration name="All Features in: incometaxcalculator" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="SingleTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.11 at 13h 52m 21s.xml">
+      <configuration name="SingleTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.11 at 13h 52m 26s.xml">
+      <configuration name="SingleTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTaxpayerTest - 2018.10.11 at 14h 03m 09s.xml">
+      <configuration name="SingleTaxpayerTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="HeadOfHouseholdTaxpayerTest - 2018.10.11 at 14h 06m 11s.xml">
+      <configuration name="HeadOfHouseholdTaxpayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeadOfHouseholdTaxpayerTest - 2018.10.11 at 14h 10m 17s.xml">
+      <configuration name="HeadOfHouseholdTaxpayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeadOfHouseholdTaxpayerTest - 2018.10.11 at 14h 14m 21s.xml">
+      <configuration name="HeadOfHouseholdTaxpayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarriedFilingJointlyTaxpayerTest - 2018.10.11 at 14h 24m 27s.xml">
+      <configuration name="MarriedFilingJointlyTaxpayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarriedFilingSeparatelyTaxpayerTest - 2018.10.11 at 15h 07m 29s.xml">
+      <configuration name="MarriedFilingSeparatelyTaxpayerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8361000" />
+    <option name="totallyTimeSpent" value="17131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="964" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -268,8 +356,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,6 +367,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -430,6 +519,51 @@
     <entry file="file://$PROJECT_DIR$/IncomeTaxCalculator.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/HeadOfHouseholdTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/SingleTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -437,17 +571,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java">
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/SingleTaxpayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="11" selection-start-line="11" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/SingleTaxpayer.java">
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/HeadOfHouseholdTaxpayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -509,6 +656,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
