@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTLogWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLLogWriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123456789_INFO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/123456789_INFO.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +48,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="JAVA/incometaxcalculator" value="2" />
-          <entry key="JavaScript-modules-diagram//Users/saen/Desktop/Fall-Semester-2018/Software Development II/SoftDevII-ProjectMaterial-2019/IncomeTaxCalculatorProject/src" value="1" />
           <entry key="iml" value="1" />
           <entry key="io" value="1" />
-          <entry key="java" value="49" />
+          <entry key="java" value="47" />
           <entry key="management" value="1" />
           <entry key="project" value="1" />
           <entry key="txt" value="3" />
@@ -59,122 +61,148 @@
         <counts>
           <entry key="Eclipse" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="47" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="UML" value="5" />
+          <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1186" />
+          <entry key="java" value="1181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1186" />
+          <entry key="JAVA" value="1181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-112019830">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="12" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="12" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="156" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="156" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="37" selection-start-line="37" selection-end-line="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/SingleTaxpayer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="503">
-                  <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/SingleTaxpayerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
-                  <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTLogWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTLogWriterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/121212121_LOG.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/123456789_LOG.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLLogWriterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/121212121_LOG.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/XMLLogWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -190,8 +218,10 @@
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayerTest.java" />
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java" />
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/management/SingleTaxpayerTest.java" />
-        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" />
-        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTLogWriterTest.java" />
+        <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLLogWriterTest.java" />
       </list>
     </option>
   </component>
@@ -201,7 +231,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-126" />
     <option name="y" value="-1080" />
     <option name="width" value="1920" />
@@ -213,40 +243,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="incometaxcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IncomeTaxCalculatorProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IncomeTaxCalculatorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
@@ -255,6 +319,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -264,7 +329,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539539967417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539546287494" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -283,6 +348,120 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTFileReaderTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLFileReaderTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -295,23 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.XMLFileReaderTest.readFile">
-    <configuration name="MarriedFilingJointlyTaxpayerTest.calculateBasicTaxFifthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IncomeTaxCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="incometaxcalculator.data.management.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="incometaxcalculator.data.management" />
-      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.management.MarriedFilingJointlyTaxpayerTest" />
-      <option name="METHOD_NAME" value="calculateBasicTaxFifthLevel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.XMLLogWriterTest">
     <configuration name="MarriedFilingSeparatelyTaxpayerTest.calculateBasicTaxFifthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IncomeTaxCalculator" />
       <extension name="coverage">
@@ -344,7 +507,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TXTFileReaderTest.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TXTInfoWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IncomeTaxCalculator" />
       <extension name="coverage">
         <pattern>
@@ -353,14 +516,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="incometaxcalculator.data.io" />
-      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.io.TXTFileReaderTest" />
-      <option name="METHOD_NAME" value="readFile" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.io.TXTInfoWriterTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLFileReaderTest.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TXTLogWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IncomeTaxCalculator" />
       <extension name="coverage">
         <pattern>
@@ -369,27 +530,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="incometaxcalculator.data.io" />
-      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.io.XMLFileReaderTest" />
-      <option name="METHOD_NAME" value="readFile" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.io.TXTLogWriterTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLLogWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IncomeTaxCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="incometaxcalculator.data.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="incometaxcalculator.data.io" />
+      <option name="MAIN_CLASS_NAME" value="incometaxcalculator.data.io.XMLLogWriterTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MarriedFilingJointlyTaxpayerTest.calculateBasicTaxFifthLevel" />
       <item itemvalue="JUnit.MarriedFilingSeparatelyTaxpayerTest.calculateBasicTaxFifthLevel" />
       <item itemvalue="JUnit.SingleTaxpayerTest.calculateBasicTaxFifthLevel" />
-      <item itemvalue="JUnit.TXTFileReaderTest.readFile" />
-      <item itemvalue="JUnit.XMLFileReaderTest.readFile" />
+      <item itemvalue="JUnit.TXTInfoWriterTest" />
+      <item itemvalue="JUnit.TXTLogWriterTest" />
+      <item itemvalue="JUnit.XMLLogWriterTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XMLFileReaderTest.readFile" />
-        <item itemvalue="JUnit.TXTFileReaderTest.readFile" />
+        <item itemvalue="JUnit.XMLLogWriterTest" />
+        <item itemvalue="JUnit.TXTLogWriterTest" />
+        <item itemvalue="JUnit.TXTInfoWriterTest" />
         <item itemvalue="JUnit.SingleTaxpayerTest.calculateBasicTaxFifthLevel" />
         <item itemvalue="JUnit.MarriedFilingSeparatelyTaxpayerTest.calculateBasicTaxFifthLevel" />
-        <item itemvalue="JUnit.MarriedFilingJointlyTaxpayerTest.calculateBasicTaxFifthLevel" />
       </list>
     </recent_temporary>
   </component>
@@ -413,26 +586,11 @@
       <workItem from="1539096551484" duration="5522000" />
       <workItem from="1539170312555" duration="460000" />
       <workItem from="1539170909731" duration="11149000" />
-      <workItem from="1539514145400" duration="2260000" />
+      <workItem from="1539514145400" duration="752000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HeadOfHouseholdTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 27m 34s.xml">
-      <configuration name="HeadOfHouseholdTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeadOfHouseholdTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 28m 39s.xml">
-      <configuration name="HeadOfHouseholdTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeadOfHouseholdTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 30m 01s.xml">
-      <configuration name="HeadOfHouseholdTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeadOfHouseholdTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 30m 28s.xml">
-      <configuration name="HeadOfHouseholdTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeadOfHouseholdTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 30m 49s.xml">
-      <configuration name="HeadOfHouseholdTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MarriedFilingJointlyTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 32m 25s.xml">
       <configuration name="MarriedFilingJointlyTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
     </history-entry>
@@ -442,31 +600,45 @@
     <history-entry file="MarriedFilingSeparatelyTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 33m 34s.xml">
       <configuration name="MarriedFilingSeparatelyTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleTaxpayerTest_calculateBasicTaxFifthLevel - 2018.10.14 at 14h 34m 02s.xml">
-      <configuration name="SingleTaxpayerTest.calculateBasicTaxFifthLevel" configurationId="JUnit" />
+    <history-entry file="TXTInfoWriterTest - 2018.10.14 at 21h 20m 04s.xml">
+      <configuration name="TXTInfoWriterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TXTFileReaderTest_readFile - 2018.10.14 at 20h 58m 55s.xml">
-      <configuration name="TXTFileReaderTest.readFile" configurationId="JUnit" />
+    <history-entry file="TXTInfoWriterTest - 2018.10.14 at 21h 26m 01s.xml">
+      <configuration name="TXTInfoWriterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TXTInfoWriterTest - 2018.10.14 at 22h 25m 11s.xml">
+      <configuration name="TXTInfoWriterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TXTLogWriterTest - 2018.10.14 at 22h 25m 16s.xml">
+      <configuration name="TXTLogWriterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TXTLogWriterTest - 2018.10.14 at 22h 33m 59s.xml">
+      <configuration name="TXTLogWriterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TXTLogWriterTest - 2018.10.14 at 22h 40m 30s.xml">
+      <configuration name="TXTLogWriterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="XMLLogWriterTest - 2018.10.14 at 22h 44m 02s.xml">
+      <configuration name="XMLLogWriterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19391000" />
+    <option name="totallyTimeSpent" value="21141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-126" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2257721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32903865" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +648,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Module Dependencies" weight="0.32960597" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,26 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/123456789_LOG.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123456789_INFO.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTLogWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/gui/TaxpayerData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -636,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/HeadOfHouseholdTaxpayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -670,6 +815,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -687,20 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/saen/Desktop/Fall-Semester-2018/Software Development II/SoftDevII-ProjectMaterial-2019/IncomeTaxCalculatorProject/src">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="363.5" y="313.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/SingleTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -711,75 +853,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/SingleTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/incometaxcalculator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>incometaxcalculator</OriginalElement>
-          <nodes>
-            <node x="" y="">incometaxcalculator.gui.ChartDisplay</node>
-            <node x="" y="">incometaxcalculator.data.io.FileWriter</node>
-            <node x="" y="">incometaxcalculator.data.management.MarriedFilingSeparatelyTaxpayer</node>
-            <node x="" y="">incometaxcalculator.data.io.TXTFileReader</node>
-            <node x="" y="">incometaxcalculator.data.management.TaxpayerManager</node>
-            <node x="" y="">incometaxcalculator.gui.GraphicalInterface</node>
-            <node x="" y="">incometaxcalculator.gui.TaxpayerData</node>
-            <node x="" y="">incometaxcalculator.data.management.SingleTaxpayer</node>
-            <node x="" y="">incometaxcalculator.data.management.Taxpayer</node>
-            <node x="" y="">incometaxcalculator.data.io.TXTInfoWriter</node>
-            <node x="" y="">incometaxcalculator.exceptions.WrongReceiptDateException</node>
-            <node x="" y="">incometaxcalculator.exceptions.ReceiptAlreadyExistsException</node>
-            <node x="" y="">incometaxcalculator.data.management.HeadOfHouseholdTaxpayer</node>
-            <node x="" y="">incometaxcalculator.data.io.XMLLogWriter</node>
-            <node x="" y="">incometaxcalculator.data.management.Receipt</node>
-            <node x="" y="">incometaxcalculator.exceptions.WrongFileFormatException</node>
-            <node x="" y="">incometaxcalculator.data.io.XMLFileReader</node>
-            <node x="" y="">incometaxcalculator.data.management.Address</node>
-            <node x="" y="">incometaxcalculator.exceptions.WrongReceiptKindException</node>
-            <node x="" y="">incometaxcalculator.data.management.Company</node>
-            <node x="" y="">incometaxcalculator.data.management.MarriedFilingJointlyTaxpayer</node>
-            <node x="" y="">incometaxcalculator.exceptions.WrongFileEndingException</node>
-            <node x="" y="">incometaxcalculator.data.io.FileReader</node>
-            <node x="" y="">incometaxcalculator.exceptions.WrongTaxpayerStatusException</node>
-            <node x="" y="">incometaxcalculator.data.management.Date</node>
-            <node x="" y="">incometaxcalculator.data.io.XMLInfoWriter</node>
-            <node x="" y="">incometaxcalculator.data.io.TXTLogWriter</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6548514277948327" x="1452.9813802845847" y="514.9915245178058" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>Project Files</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/123456789_INFO.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="27">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/XMLLogWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="-34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTInfoWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123456789_LOG.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTLogWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/121212121_LOG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTLogWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/121212121_LOG.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLLogWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
