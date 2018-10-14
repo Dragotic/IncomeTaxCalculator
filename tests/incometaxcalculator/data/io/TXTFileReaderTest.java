@@ -34,23 +34,8 @@ class TXTFileReaderTest {
         {
             assertFalse(taxpayerManager.containsTaxpayer());
         }
-        try {
-            this.taxpayerManager.loadTaxpayer(taxRegistrationNumberFile);
-        } catch (NumberFormatException e) {
-            System.out.println("The tax registration number must have only digits.");
-        } catch (IOException e) {
-            System.out.println("The file doesn't exist.");
-        } catch (WrongFileFormatException e) {
-            System.out.println("Please check your file format and try again.");
-        } catch (WrongFileEndingException e) {
-            System.out.println("Please check your file ending and try again.");
-        } catch (WrongTaxpayerStatusException e) {
-            System.out.println("Please check taxpayer's status and try again.");
-        } catch (WrongReceiptDateException e) {
-            System.out.println("Please make sure your date is DD/MM/YYYY and try again.");
-        } catch (WrongReceiptKindException e) {
-            System.out.println("Please check receipts kind and try again.");
-        }
+        this.taxpayerManager.loadTaxpayer(taxRegistrationNumberFile);
+
         assertTrue(this.taxpayerManager.containsTaxpayer(taxRegistrationNumber));
     }
 }
