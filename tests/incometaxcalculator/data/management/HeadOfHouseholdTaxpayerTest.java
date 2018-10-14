@@ -44,8 +44,7 @@ class HeadOfHouseholdTaxpayerTest {
     @Test
     void calculateBasicTaxFifthLevel() {
         int rndIncome = ThreadLocalRandom.current().nextInt(203390, 3 * 203390);
-        double expected = 8092.13 + 0.0985 * (rndIncome - 203390);
-        System.out.println("Income: " + rndIncome + ", expected: " + expected);
+        double expected = 14472.61 + 0.0985 * (rndIncome - 203390);
         this.taxpayer = new HeadOfHouseholdTaxpayer("Head of Household Tax Payer", 999999999, rndIncome);
         assertEquals(expected, this.taxpayer.calculateBasicTax());
     }

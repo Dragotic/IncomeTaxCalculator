@@ -43,7 +43,7 @@ class MarriedFilingJointlyTaxpayerTest {
 
     @Test
     void calculateBasicTaxFifthLevel() {
-        int rndIncome = ThreadLocalRandom.current().nextInt() + 254240;
+        int rndIncome = ThreadLocalRandom.current().nextInt(254240, 3 * 254240);
         double expected = 18197.69 + 0.0985 * (rndIncome - 254240);
         this.taxpayer = new MarriedFilingJointlyTaxpayer("Married Filling Jointly Tax Payer", 999999999, rndIncome);
         assertEquals(expected, this.taxpayer.calculateBasicTax());

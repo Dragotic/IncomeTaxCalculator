@@ -45,7 +45,7 @@ class SingleTaxpayerTest {
 
     @Test
     void calculateBasicTaxFifthLevel() {
-        int rndIncome = ThreadLocalRandom.current().nextInt() + 152540;
+        int rndIncome = ThreadLocalRandom.current().nextInt(152540, 3 * 152540);
         double expected = 10906.19 + 0.0985 * (rndIncome - 152540);
         this.taxpayer = new SingleTaxpayer("Single Tax Payer", 999999999, rndIncome);
         assertEquals(expected, this.taxpayer.calculateBasicTax());
