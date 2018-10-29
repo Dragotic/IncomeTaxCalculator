@@ -8,9 +8,9 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public abstract class InfoWriter {
+public abstract class InfoWriter implements FileWriter {
 
-    TaxpayerManager manager = new TaxpayerManager();
+    protected TaxpayerManager manager = new TaxpayerManager();
 
     protected abstract PrintWriter generateFileSpecificParts(int taxRegistrationNumber) throws IOException;
     protected abstract void generateReceiptsSpecificParts(Receipt receipt, PrintWriter outputStream);

@@ -6,9 +6,7 @@ import java.io.PrintWriter;
 import incometaxcalculator.data.management.Receipt;
 import incometaxcalculator.data.management.TaxpayerManager;
 
-public class XMLInfoWriter extends InfoWriter implements FileWriter {
-
-    private TaxpayerManager manager = new TaxpayerManager();
+public class XMLInfoWriter extends InfoWriter {
 
     @Override
     protected PrintWriter generateFileSpecificParts(int taxRegistrationNumber) throws IOException {

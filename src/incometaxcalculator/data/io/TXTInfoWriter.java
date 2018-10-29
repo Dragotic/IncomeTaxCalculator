@@ -8,8 +8,6 @@ import incometaxcalculator.data.management.TaxpayerManager;
 
 public class TXTInfoWriter extends InfoWriter implements FileWriter {
 
-    TaxpayerManager manager = new TaxpayerManager();
-
     @Override
     protected PrintWriter generateFileSpecificParts(int taxRegistrationNumber) throws IOException {
         PrintWriter outputStream = new PrintWriter(
