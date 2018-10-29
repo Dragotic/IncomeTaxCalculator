@@ -2,46 +2,39 @@ package incometaxcalculator.data.io;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.Iterator;
 
 import incometaxcalculator.data.management.Receipt;
+import incometaxcalculator.data.management.TaxpayerManager;
 
-public class TXTInfoWriter extends FileWriter {
+public class TXTInfoWriter extends InfoWriter implements FileWriter {
 
-  public void generateFile(int taxRegistrationNumber) throws IOException {
+    TaxpayerManager manager = new TaxpayerManager();
 
-    PrintWriter outputStream = new PrintWriter(
-        new java.io.FileWriter(taxRegistrationNumber + "_INFO.txt"));
-    outputStream.println("Name: " + getTaxpayerName(taxRegistrationNumber));
-    outputStream.println("AFM: " + taxRegistrationNumber);
-    outputStream.println("Status: " + getTaxpayerStatus(taxRegistrationNumber));
-    outputStream.println("Income: " + getTaxpayerIncome(taxRegistrationNumber));
-    outputStream.println();// den mas emfanize to \n se aplo notepad
-    outputStream.println("Receipts:");
-    outputStream.println();
-    generateTaxpayerReceipts(taxRegistrationNumber, outputStream);
-    outputStream.close();
-  }
-
-  private void generateTaxpayerReceipts(int taxRegistrationNumber, PrintWriter outputStream) {
-
-    HashMap<Integer, Receipt> receiptsHashMap = getReceiptHashMap(taxRegistrationNumber);
-    Iterator<HashMap.Entry<Integer, Receipt>> iterator = receiptsHashMap.entrySet().iterator();
-    while (iterator.hasNext()) {
-      HashMap.Entry<Integer, Receipt> entry = iterator.next();
-      Receipt receipt = entry.getValue();
-      outputStream.println("Receipt ID: " + getReceiptId(receipt));
-      outputStream.println("Date: " + getReceiptIssueDate(receipt));
-      outputStream.println("Kind: " + getReceiptKind(receipt));
-      outputStream.println("Amount: " + getReceiptAmount(receipt));
-      outputStream.println("Company: " + getCompanyName(receipt));
-      outputStream.println("Country: " + getCompanyCountry(receipt));
-      outputStream.println("City: " + getCompanyCity(receipt));
-      outputStream.println("Street: " + getCompanyStreet(receipt));
-      outputStream.println("Number: " + getCompanyNumber(receipt));
-      outputStream.println();
+    @Override
+    protected PrintWriter generateFileSpecificParts(int taxRegistrationNumber) throws IOException {
+        PrintWriter outputStream = new PrintWriter(
+                new java.io.FileWriter(taxRegistrationNumber + "_INFO.txt"));
+        outputStream.println("Name: " + manager.getTaxpayerName(taxRegistrationNumber));
+        outputStream.println("AFM: " + taxRegistrationNumber);
+        outputStream.println("Status: " + manager.getTaxpayerStatus(taxRegistrationNumber));
+        outputStream.println("Income: " + manager.getTaxpayerIncome(taxRegistrationNumber));
+        outputStream.println();// den mas emfanize to \n se aplo notepad
+        outputStream.println("Receipts:");
+        outputStream.println();
+        return outputStream;
     }
-  }
+
+    @Override
+    protected void generateReceiptsSpecificParts(Receipt receipt, PrintWriter outputStream) {
+        outputStream.println("Receipt ID: " + receipt.getId());
+        outputStream.println("Date: " + receipt.getIssueDate());
+        outputStream.println("Kind: " + receipt.getKind());
+        outputStream.println("Amount: " + receipt.getAmount());
+        outputStream.println("Company: " + receipt.getCompany());
+        outputStream.println("Country: " + receipt.getCompany().getCountry());
+        outputStream.println("City: " + receipt.getCompany().getCity());
+        outputStream.println("Street: " + receipt.getCompany().getStreet());
+        outputStream.println("Number: " + receipt.getCompany().getNumber());
+    }
 
 }
