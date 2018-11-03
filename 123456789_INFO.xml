@@ -6,32 +6,12 @@
 <Receipts>
 
 <ReceiptID> 1 </ReceiptID>
-<Date> 10/5/1996 </Date>
+<Date> Sun May 10 00:00:00 EET 1936 </Date>
 <Kind> Basic </Kind>
-<Amount> 251.0 </Amount>
-<Company> Parta </Company>
-<Country> Jakusa </Country>
-<City> Drama </City>
-<Street> Fukosima </Street>
-<Number> 5 </Number>
-
-<ReceiptID> 2 </ReceiptID>
-<Date> 12/12/2015 </Date>
-<Kind> Basic </Kind>
-<Amount> 15.0 </Amount>
-<Company> LOL </Company>
+<Amount> 200.0 </Amount>
+<Company> incometaxcalculator.data.management.Company@6b5370e4 </Company>
 <Country> Greece </Country>
-<City> Ioannina </City>
-<Street> Napolewn Zerva </Street>
-<Number> 12 </Number>
-
-<ReceiptID> 4 </ReceiptID>
-<Date> 11/11/2111 </Date>
-<Kind> Other </Kind>
-<Amount> 1000.0 </Amount>
-<Company> ewre </Company>
-<Country> werw </Country>
-<City> ewr </City>
-<Street> were </Street>
-<Number> 4 </Number>
+<City> Athens </City>
+<Street> Syntagma </Street>
+<Number> 1 </Number>
 
