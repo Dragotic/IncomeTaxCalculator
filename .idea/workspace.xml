@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTInfoWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTInfoWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTLogWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTLogWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLInfoWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLInfoWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLLogWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLLogWriter.class" afterDir="false" />
-    </list>
+    <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,37 +77,40 @@
     <session id="-112019830">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="44" />
+          <entry key="class" value="1" />
+          <entry key="java" value="49" />
           <entry key="txt" value="4" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="44" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="49" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="995" />
+          <entry key="java" value="1040" />
           <entry key="txt" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="995" />
+          <entry key="JAVA" value="1040" />
           <entry key="PLAIN_TEXT" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -155,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/gui/GraphicalInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="46" column="62" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+            <state>
+              <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -164,11 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
-              <folding>
-                <element signature="e#3167#3168#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="268">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -176,35 +169,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/123456789_INFO.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="253">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="299">
+              <caret line="13" column="79" lean-forward="true" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -245,8 +220,8 @@
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/XMLInfoWriter.java" />
         <option value="$PROJECT_DIR$/123456789_INFO.txt" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java" />
-        <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" />
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" />
       </list>
     </option>
   </component>
@@ -269,6 +244,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,7 +329,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +337,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541448848642" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541449845713" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -504,6 +479,7 @@
       <workItem from="1540834760896" duration="3301000" />
       <workItem from="1540838150609" duration="4704000" />
       <workItem from="1541444211011" duration="3735000" />
+      <workItem from="1541449018098" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="created tests for txt info, txt log, xml info, xml log writers">
       <created>1539546432611</created>
@@ -526,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541448700434</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix an error in file reader">
+      <created>1541449176724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541449176724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -562,13 +545,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35361000" />
+    <option name="totallyTimeSpent" value="36188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,8 +567,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.35995087" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32819384" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32819384" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32929516" />
       <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Code scanning results" order="14" />
@@ -740,24 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -877,31 +845,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/gui/GraphicalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="46" column="62" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123456789_INFO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -919,27 +866,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/gui/GraphicalInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
-          <folding>
-            <element signature="e#3167#3168#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="598">
           <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123456789_INFO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/incometaxcalculator/gui/ChartDisplay.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="79" lean-forward="true" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
         </state>
       </provider>
     </entry>
