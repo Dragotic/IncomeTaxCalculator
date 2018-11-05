@@ -18,10 +18,10 @@ public class XMLLogWriter extends LogWriter {
                 .println("<BasicTax> " + manager.getTaxpayerBasicTax(taxRegistrationNumber) + " </BasicTax>");
         if (manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber) > 0) {
             outputStream.println("<TaxIncrease> "
-                  + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber) + " </TaxIncrease>");
+                    + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber) + " </TaxIncrease>");
         } else {
             outputStream.println("<TaxDecrease> "
-                  + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber) + " </TaxDecrease>");
+                    + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber) + " </TaxDecrease>");
         }
         outputStream
                 .println("<TotalTax> " + manager.getTaxpayerTotalTax(taxRegistrationNumber) + " </TotalTax>");

@@ -15,10 +15,10 @@ public class TXTLogWriter extends LogWriter {
         outputStream.println("Basic Tax: " + manager.getTaxpayerBasicTax(taxRegistrationNumber));
         if (manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber) > 0) {
             outputStream
-                  .println("Tax Increase: " + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber));
+                    .println("Tax Increase: " + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber));
         } else {
             outputStream
-                  .println("Tax Decrease: " + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber));
+                    .println("Tax Decrease: " + manager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber));
         }
         outputStream.println("Total Tax: " + manager.getTaxpayerTotalTax(taxRegistrationNumber));
         outputStream.println(

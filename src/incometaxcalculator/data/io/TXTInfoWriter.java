@@ -28,7 +28,7 @@ public class TXTInfoWriter extends InfoWriter implements FileWriter {
         outputStream.println("Date: " + receipt.getIssueDate());
         outputStream.println("Kind: " + receipt.getKind());
         outputStream.println("Amount: " + receipt.getAmount());
-        outputStream.println("Company: " + receipt.getCompany());
+        outputStream.println("Company: " + receipt.getCompany().getName());
         outputStream.println("Country: " + receipt.getCompany().getCountry());
         outputStream.println("City: " + receipt.getCompany().getCity());
         outputStream.println("Street: " + receipt.getCompany().getStreet());
