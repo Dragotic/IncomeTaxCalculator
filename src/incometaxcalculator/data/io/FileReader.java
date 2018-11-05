@@ -76,10 +76,11 @@ public abstract class FileReader {
             throws NumberFormatException, IOException {
         String line;
         while (!isEmpty(line = inputStream.readLine())) {
-            System.out.println("LINEEEE: " + line);
             String values[] = line.split(" ", 3);
-            System.out.println(line);
-            return checkSpecificReceipt(values);
+            int receiptId = checkSpecificReceipt(values);
+            if (receiptId != -1){
+                return receiptId;
+            }
         }
         return -1;
     }
