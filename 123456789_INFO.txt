@@ -6,12 +6,12 @@ Income: 22570.0
 Receipts:
 
 Receipt ID: 1
-Date: Sun May 10 00:00:00 EET 1936
+Date: 4/11/2018
 Kind: Basic
 Amount: 200.0
-Company: incometaxcalculator.data.management.Company@6b5370e4
+Company: Tester
 Country: Greece
 City: Athens
-Street: Syntagma
-Number: 1
+Street: Syngrou
+Number: 190
 

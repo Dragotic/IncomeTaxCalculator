@@ -31,7 +31,6 @@ public abstract class FileReader {
     protected boolean readReceipt(BufferedReader inputStream, int taxRegistrationNumber)
             throws WrongFileFormatException, IOException, WrongReceiptKindException,
             WrongReceiptDateException {
-
         int receiptId;
         if ((receiptId = checkForReceipt(inputStream)) < 0) {
             return false;
@@ -77,7 +76,9 @@ public abstract class FileReader {
             throws NumberFormatException, IOException {
         String line;
         while (!isEmpty(line = inputStream.readLine())) {
+            System.out.println("LINEEEE: " + line);
             String values[] = line.split(" ", 3);
+            System.out.println(line);
             return checkSpecificReceipt(values);
         }
         return -1;

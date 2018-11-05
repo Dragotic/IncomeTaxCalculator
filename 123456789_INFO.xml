@@ -6,12 +6,12 @@
 <Receipts>
 
 <ReceiptID> 1 </ReceiptID>
-<Date> Sun May 10 00:00:00 EET 1936 </Date>
+<Date> Fri Jun 10 00:00:00 EET 1910 </Date>
 <Kind> Basic </Kind>
 <Amount> 200.0 </Amount>
-<Company> incometaxcalculator.data.management.Company@6b5370e4 </Company>
+<Company> Tester </Company>
 <Country> Greece </Country>
 <City> Athens </City>
-<Street> Syntagma </Street>
-<Number> 1 </Number>
+<Street> Syngrou </Street>
+<Number> 190 </Number>
 

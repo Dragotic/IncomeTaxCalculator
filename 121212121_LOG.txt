@@ -1,0 +1,12 @@
+Name: Test User
+AFM: 121212121
+Income: 20000.0
+Basic Tax: 1070.0
+Tax Increase: 85.60000000000001
+Total Tax: 1155.6
+TotalReceiptsGathered: 0
+Entertainment: 0.0
+Basic: 0.0
+Travel: 0.0
+Health: 0.0
+Other: 0.0

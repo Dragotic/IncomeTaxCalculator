@@ -28,7 +28,7 @@ public class XMLInfoWriter extends InfoWriter {
         outputStream.println("<Date> " + receipt.getIssueDate() + " </Date>");
         outputStream.println("<Kind> " + receipt.getKind() + " </Kind>");
         outputStream.println("<Amount> " + receipt.getAmount() + " </Amount>");
-        outputStream.println("<Company> " + receipt.getCompany() + " </Company>");
+        outputStream.println("<Company> " + receipt.getCompany().getName() + " </Company>");
         outputStream.println("<Country> " + receipt.getCompany().getCountry() + " </Country>");
         outputStream.println("<City> " + receipt.getCompany().getCity() + " </City>");
         outputStream.println("<Street> " + receipt.getCompany().getStreet() + " </Street>");

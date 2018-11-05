@@ -67,17 +67,17 @@ public class TaxpayerManager {
     }
 
     private void updateFiles(int taxRegistrationNumber) throws IOException {
-        InfoWriter writer = InfoWriterFactory.createInfoWriter(taxRegistrationNumber);
-        writer.generateFile(taxRegistrationNumber);
-//        if (new File(taxRegistrationNumber + "_INFO.xml").exists()) {
-//            new XMLInfoWriter().generateFile(taxRegistrationNumber);
-//        } else {
-//            new TXTInfoWriter().generateFile(taxRegistrationNumber);
-//            return;
-//        }
-//        if (new File(taxRegistrationNumber + "_INFO.txt").exists()) {
-//            new TXTInfoWriter().generateFile(taxRegistrationNumber);
-//        }
+//        InfoWriter writer = InfoWriterFactory.createInfoWriter(taxRegistrationNumber);
+//        writer.generateFile(taxRegistrationNumber);
+        if (new File(taxRegistrationNumber + "_INFO.xml").exists()) {
+            new XMLInfoWriter().generateFile(taxRegistrationNumber);
+        } else {
+            new TXTInfoWriter().generateFile(taxRegistrationNumber);
+            return;
+        }
+        if (new File(taxRegistrationNumber + "_INFO.txt").exists()) {
+            new TXTInfoWriter().generateFile(taxRegistrationNumber);
+        }
     }
 
     public void saveLogFile(int taxRegistrationNumber, String fileFormat)

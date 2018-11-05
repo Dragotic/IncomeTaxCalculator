@@ -1,0 +1,17 @@
+<Name> Test User </Name>
+<AFM> 121212121 </AFM>
+<Status> Single </Status>
+<Income> 20000.0 </Income>
+
+<Receipts>
+
+<ReceiptID> 12344444 </ReceiptID>
+<Date> Sat May 11 00:00:00 EET 1918 </Date>
+<Kind> Other </Kind>
+<Amount> 20.0 </Amount>
+<Company> incometaxcalculator.data.management.Company@57fffcd7 </Company>
+<Country> Greece </Country>
+<City> Athens </City>
+<Street> Ermou </Street>
+<Number> 10 </Number>
+

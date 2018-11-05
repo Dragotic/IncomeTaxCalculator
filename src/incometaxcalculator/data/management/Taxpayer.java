@@ -11,7 +11,7 @@ public abstract class Taxpayer {
     protected final float income;
     private final double incomeLevels[];
     private final double min_taxes[];
-    private final double taxes[];
+    private final double taxLevels[];
     private float amountPerReceiptsKind[] = new float[5];
     private int totalReceiptsGathered = 0;
     private HashMap<Integer, Receipt> receiptHashMap = new HashMap<Integer, Receipt>(0);
@@ -21,21 +21,21 @@ public abstract class Taxpayer {
         for (int i = 0; i < incomeLevels.length; i++) {
             if (income < incomeLevels[i]) {
                 if (i == 0) {
-                    return taxes[i] * income;
+                    return taxLevels[i] * income;
                 }
-                return min_taxes[i] + taxes[i] * (income - incomeLevels[i-1]);
+                return min_taxes[i] + taxLevels[i] * (income - incomeLevels[i-1]);
             }
         }
 
-        return min_taxes[min_taxes.length - 1] + taxes[taxes.length - 1] * (income - incomeLevels[incomeLevels.length - 1]);
+        return min_taxes[min_taxes.length - 1] + taxLevels[taxLevels.length - 1] * (income - incomeLevels[incomeLevels.length - 1]);
     }
 
-    protected Taxpayer(String fullname, int taxRegistrationNumber, float income, double incomeLevels[], double taxes[], double min_taxes[]) {
+    protected Taxpayer(String fullname, int taxRegistrationNumber, float income, double incomeLevels[], double taxLevels[], double min_taxes[]) {
         this.fullname = fullname;
         this.taxRegistrationNumber = taxRegistrationNumber;
         this.income = income;
         this.incomeLevels = incomeLevels;
-        this.taxes = taxes;
+        this.taxLevels = taxLevels;
         this.min_taxes = min_taxes;
     }
 
