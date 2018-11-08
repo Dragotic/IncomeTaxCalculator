@@ -4,26 +4,28 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import incometaxcalculator.data.management.Receipt;
-import incometaxcalculator.data.management.TaxpayerManager;
 
 public class TXTInfoWriter extends InfoWriter implements FileWriter {
 
     @Override
-    protected PrintWriter generateFileSpecificParts(int taxRegistrationNumber) throws IOException {
+    protected PrintWriter geneFileSpecParts(final int taxRegistrationNumber)
+            throws IOException {
         PrintWriter outputStream = new PrintWriter(
                 new java.io.FileWriter(taxRegistrationNumber + "_INFO.txt"));
-        outputStream.println("Name: " + manager.getTaxpayerName(taxRegistrationNumber));
+        outputStream.println("Name: "
+                + manager.getTaxpayerName(taxRegistrationNumber));
         outputStream.println("AFM: " + taxRegistrationNumber);
-        outputStream.println("Status: " + manager.getTaxpayerStatus(taxRegistrationNumber));
-        outputStream.println("Income: " + manager.getTaxpayerIncome(taxRegistrationNumber));
-        outputStream.println();// den mas emfanize to \n se aplo notepad
-        outputStream.println("Receipts:");
-        outputStream.println();
+        outputStream.println("Status: "
+                + manager.getTaxpayerStatus(taxRegistrationNumber));
+        outputStream.println("Income: "
+                + manager.getTaxpayerIncome(taxRegistrationNumber) + "\n");
+        outputStream.println("Receipts:\n");
         return outputStream;
     }
 
     @Override
-    protected void generateReceiptsSpecificParts(Receipt receipt, PrintWriter outputStream) {
+    protected void genReceiptsSpecParts(final Receipt receipt,
+                                        final PrintWriter outputStream) {
         outputStream.println("Receipt ID: " + receipt.getId());
         outputStream.println("Date: " + receipt.getIssueDate());
         outputStream.println("Kind: " + receipt.getKind());

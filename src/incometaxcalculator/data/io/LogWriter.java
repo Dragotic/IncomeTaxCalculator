@@ -15,10 +15,13 @@ public abstract class LogWriter implements FileWriter {
 
     protected TaxpayerManager manager = new TaxpayerManager();
 
-    protected abstract PrintWriter generateFileSpecificParts(int taxRegistrationNumber) throws IOException;
+    protected abstract PrintWriter
+    genFileSpecParts(int taxRegistrationNumber) throws IOException;
 
-    public void generateFile(int taxRegistrationNumber) throws IOException {
-        PrintWriter outputStream = generateFileSpecificParts(taxRegistrationNumber);
+    public void generateFile(final int taxRegistrationNumber)
+            throws IOException {
+        PrintWriter outputStream =
+                genFileSpecParts(taxRegistrationNumber);
         outputStream.close();
     }
 

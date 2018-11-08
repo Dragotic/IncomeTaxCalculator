@@ -144,15 +144,15 @@ public class TaxpayerManager {
         return "" + taxpayerHashMap.get(taxRegistrationNumber).getIncome();
     }
 
-    public double getTaxpayerVariationTaxOnReceipts(int taxRegistrationNumber) {
+    public double getTaxpayerVarTaxOnRec(int taxRegistrationNumber) {
         return taxpayerHashMap.get(taxRegistrationNumber).getVariationTaxOnReceipts();
     }
 
-    public int getTaxpayerTotalReceiptsGathered(int taxRegistrationNumber) {
+    public int getTaxpayerTotalRecGathered(int taxRegistrationNumber) {
         return taxpayerHashMap.get(taxRegistrationNumber).getTotalReceiptsGathered();
     }
 
-    public float getTaxpayerAmountOfReceiptKind(int taxRegistrationNumber, short kind) {
+    public float getTaxpayerAmountOfRecKind(int taxRegistrationNumber, short kind) {
         return taxpayerHashMap.get(taxRegistrationNumber).getAmountOfReceiptKind(kind);
     }
 

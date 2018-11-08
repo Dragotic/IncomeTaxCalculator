@@ -171,14 +171,14 @@ public class TaxpayerData extends JFrame {
         btnViewReport.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 ChartDisplay.createBarChart(taxpayerManager.getTaxpayerBasicTax(taxRegistrationNumber),
-                        taxpayerManager.getTaxpayerVariationTaxOnReceipts(taxRegistrationNumber),
+                        taxpayerManager.getTaxpayerVarTaxOnRec(taxRegistrationNumber),
                         taxpayerManager.getTaxpayerTotalTax(taxRegistrationNumber));
                 ChartDisplay.createPieChart(
-                        taxpayerManager.getTaxpayerAmountOfReceiptKind(taxRegistrationNumber, ENTERTAINMENT),
-                        taxpayerManager.getTaxpayerAmountOfReceiptKind(taxRegistrationNumber, BASIC),
-                        taxpayerManager.getTaxpayerAmountOfReceiptKind(taxRegistrationNumber, TRAVEL),
-                        taxpayerManager.getTaxpayerAmountOfReceiptKind(taxRegistrationNumber, HEALTH),
-                        taxpayerManager.getTaxpayerAmountOfReceiptKind(taxRegistrationNumber, OTHER));
+                        taxpayerManager.getTaxpayerAmountOfRecKind(taxRegistrationNumber, ENTERTAINMENT),
+                        taxpayerManager.getTaxpayerAmountOfRecKind(taxRegistrationNumber, BASIC),
+                        taxpayerManager.getTaxpayerAmountOfRecKind(taxRegistrationNumber, TRAVEL),
+                        taxpayerManager.getTaxpayerAmountOfRecKind(taxRegistrationNumber, HEALTH),
+                        taxpayerManager.getTaxpayerAmountOfRecKind(taxRegistrationNumber, OTHER));
             }
         });
         btnViewReport.setBounds(214, 0, 109, 23);

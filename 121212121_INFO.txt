@@ -9,7 +9,7 @@ Receipt ID: 12344444
 Date: Sat May 11 00:00:00 EET 1918
 Kind: Other
 Amount: 20.0
-Company: incometaxcalculator.data.management.Company@2758fe70
+Company: Zara
 Country: Greece
 City: Athens
 Street: Ermou

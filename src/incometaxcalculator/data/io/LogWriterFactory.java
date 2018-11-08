@@ -4,7 +4,8 @@ import incometaxcalculator.exceptions.WrongFileFormatException;
 
 public class LogWriterFactory {
 
-    public static LogWriter createLogWriter(String fileFormat) throws WrongFileFormatException {
+    public static LogWriter createLogWriter(final String fileFormat)
+            throws WrongFileFormatException {
 
         if (fileFormat.equals("txt")) {
             return new TXTLogWriter();

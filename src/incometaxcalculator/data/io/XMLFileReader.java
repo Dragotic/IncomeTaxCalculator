@@ -5,23 +5,20 @@ import incometaxcalculator.exceptions.WrongFileFormatException;
 public class XMLFileReader extends FileReader {
 
     @Override
-    protected int checkSpecificReceipt(String[] values) {
+    protected int checkSpecificReceipt(final String[] values) {
         if (values[0].equals("<ReceiptID>")) {
-            int receiptId = Integer.parseInt(values[1].trim());
-            return receiptId;
+            return Integer.parseInt(values[1].trim());
         }
         return -1;
     }
 
-    protected String getValueOfField(String fieldsLine) throws WrongFileFormatException {
-        if (isEmpty(fieldsLine)) {
-            throw new WrongFileFormatException();
-        }
+    protected String getValueOfField(final String fieldsLine)
+            throws WrongFileFormatException {
         try {
-            String valueWithTail[] = fieldsLine.split(" ", 2);
-            String valueReversed[] = new StringBuilder(valueWithTail[1]).reverse().toString().trim()
-                    .split(" ", 2);
-            return new StringBuilder(valueReversed[1]).reverse().toString();
+            return new StringBuilder(
+                    new StringBuilder(fieldsLine.split(" ", 2)[1])
+                    .reverse().toString().trim().split(" ", 2)[1])
+                    .reverse().toString();
         } catch (NullPointerException e) {
             throw new WrongFileFormatException();
         }
