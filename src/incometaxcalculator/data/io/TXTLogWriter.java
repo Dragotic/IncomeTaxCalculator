@@ -6,50 +6,52 @@ import java.io.PrintWriter;
 public class TXTLogWriter extends LogWriter {
 
     @Override
-    protected PrintWriter genFileSpecParts(final int taxRegistrationNumber)
+    protected PrintWriter genFileSpecParts(final int taxRegNum)
             throws IOException {
-        PrintWriter outputStream = new PrintWriter(
-                new java.io.FileWriter(taxRegistrationNumber + "_LOG.txt"));
-        outputStream.println("Name: "
-                + manager.getTaxpayerName(taxRegistrationNumber));
-        outputStream.println("AFM: " + taxRegistrationNumber);
-        outputStream.println("Income: "
-                + manager.getTaxpayerIncome(taxRegistrationNumber));
-        outputStream.println("Basic Tax: "
-                + manager.getTaxpayerBasicTax(taxRegistrationNumber));
-        if (manager.getTaxpayerVarTaxOnRec(taxRegistrationNumber)
-                > 0) {
-            outputStream
-                    .println("Tax Increase: "
-                       + manager.getTaxpayerVarTaxOnRec(taxRegistrationNumber));
-        } else {
-            outputStream
-                    .println("Tax Decrease: "
-                       + manager.getTaxpayerVarTaxOnRec(taxRegistrationNumber));
-        }
-        outputStream.println("Total Tax: "
-                + manager.getTaxpayerTotalTax(taxRegistrationNumber));
-        outputStream.println(
-                "TotalReceiptsGathered: "
-                  + manager.getTaxpayerTotalRecGathered(taxRegistrationNumber));
-        outputStream.println(
-                "Entertainment: "
-                  + manager.getTaxpayerAmountOfRecKind(taxRegistrationNumber,
-                                                       ENTERTAINMENT));
-        outputStream.println("Basic: "
-                  + manager.getTaxpayerAmountOfRecKind(taxRegistrationNumber,
-                                                       BASIC));
-        outputStream
-                .println("Travel: "
-                  + manager.getTaxpayerAmountOfRecKind(taxRegistrationNumber,
-                                                       TRAVEL));
-        outputStream
-                .println("Health: "
-                  + manager.getTaxpayerAmountOfRecKind(taxRegistrationNumber,
-                                                       HEALTH));
-        outputStream.println("Other: "
-                + manager.getTaxpayerAmountOfRecKind(taxRegistrationNumber,
-                                                     OTHER));
+        PrintWriter outputStream = new PrintWriter(taxRegNum + "_LOG.txt");
+        printGeneralInfo(outputStream, taxRegNum);
+        printTaxInfo(outputStream, taxRegNum);
+        printReceiptInfo(outputStream, taxRegNum);
         return outputStream;
     }
+
+    private void printGeneralInfo(PrintWriter outputStream, int taxRegNum) {
+        outputStream.println("Name: "
+                + manager.getTaxpayerName(taxRegNum));
+        outputStream.println("AFM: "
+                + taxRegNum);
+        outputStream.println("Income: "
+                + manager.getTaxpayerIncome(taxRegNum));
+    }
+
+    private void printTaxInfo(PrintWriter outputStream, int taxRegNum) {
+        outputStream.println("Basic Tax: "
+                + manager.getTaxpayerBasicTax(taxRegNum));
+        if (getVarTax(taxRegNum) > 0) {
+            outputStream.println("Tax Increase: " + getVarTax(taxRegNum));
+        } else {
+            outputStream.println("Tax Decrease: " + getVarTax(taxRegNum));
+        }
+        outputStream.println("Total Tax: " + getVarTax(taxRegNum));
+    }
+
+    private void printReceiptInfo(PrintWriter outputStream, int taxRegNum) {
+        outputStream.println("TotalReceiptsGathered: "
+                        + manager.getTaxpayerTotalRecGathered(taxRegNum));
+        outputStream.println("Entertainment: "
+                + getAmountOfRec(taxRegNum, ENTERTAINMENT));
+        outputStream.println("Basic: " + getAmountOfRec(taxRegNum, BASIC));
+        outputStream.println("Travel: " + getAmountOfRec(taxRegNum, TRAVEL));
+        outputStream.println("Health: " + getAmountOfRec(taxRegNum, HEALTH));
+        outputStream.println("Other: " + getAmountOfRec(taxRegNum, OTHER));
+    }
+
+    private float getAmountOfRec(int taxRegNum, short type) {
+        return manager.getTaxpayerAmountOfRecKind(taxRegNum, type);
+    }
+
+    private Double getVarTax(int taxRegNum){
+        return manager.getTaxpayerVarTaxOnRec(taxRegNum);
+    }
+
 }

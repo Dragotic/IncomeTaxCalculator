@@ -3,25 +3,22 @@ package incometaxcalculator.data.io;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import incometaxcalculator.data.management.Company;
 import incometaxcalculator.data.management.Receipt;
 
 public class TXTInfoWriter extends InfoWriter implements FileWriter {
 
     @Override
-    protected PrintWriter geneFileSpecParts(final int taxRegistrationNumber)
+    protected PrintWriter geneFileSpecParts(int taxRegNum)
             throws IOException {
-        PrintWriter outputStream = new PrintWriter(
-                new java.io.FileWriter(taxRegistrationNumber + "_INFO.txt"));
-        outputStream.println("Name: "
-                + manager.getTaxpayerName(taxRegistrationNumber));
-        outputStream.println("AFM: " + taxRegistrationNumber);
-        outputStream.println("Status: "
-                + manager.getTaxpayerStatus(taxRegistrationNumber));
+        PrintWriter outputStream = new PrintWriter(taxRegNum + "_INFO.txt");
+        outputStream.println("Name: " + manager.getTaxpayerName(taxRegNum));
+        outputStream.println("AFM: " + taxRegNum);
+        outputStream.println("Status: " + manager.getTaxpayerStatus(taxRegNum));
         outputStream.println("Income: "
-                + manager.getTaxpayerIncome(taxRegistrationNumber) + "\n");
+                + manager.getTaxpayerIncome(taxRegNum) + "\n");
         outputStream.println("Receipts:\n");
-        return outputStream;
-    }
+        return outputStream; }
 
     @Override
     protected void genReceiptsSpecParts(final Receipt receipt,
@@ -30,11 +27,16 @@ public class TXTInfoWriter extends InfoWriter implements FileWriter {
         outputStream.println("Date: " + receipt.getIssueDate());
         outputStream.println("Kind: " + receipt.getKind());
         outputStream.println("Amount: " + receipt.getAmount());
-        outputStream.println("Company: " + receipt.getCompany().getName());
-        outputStream.println("Country: " + receipt.getCompany().getCountry());
-        outputStream.println("City: " + receipt.getCompany().getCity());
-        outputStream.println("Street: " + receipt.getCompany().getStreet());
-        outputStream.println("Number: " + receipt.getCompany().getNumber());
+        printCompany(receipt, outputStream);
+    }
+
+    private void printCompany(Receipt receipt, PrintWriter outputStream) {
+        Company company = receipt.getCompany();
+        outputStream.println("Company: " + company.getName());
+        outputStream.println("Country: " + company.getCountry());
+        outputStream.println("City: " + company.getCity());
+        outputStream.println("Street: " + company.getStreet());
+        outputStream.println("Number: " + company.getNumber());
     }
 
 }

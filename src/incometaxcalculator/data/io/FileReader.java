@@ -37,8 +37,8 @@ public abstract class FileReader {
                                   final int taxRegistrationNumber)
             throws WrongFileFormatException, IOException,
             WrongReceiptKindException, WrongReceiptDateException {
-        int receiptId;
-        if ((receiptId = checkForReceipt(inputStream)) < 0) {
+        int receiptId = checkForReceipt(inputStream);
+        if (receiptId < 0) {
             return false;
         }
         String issueDate = getValueOfField(inputStream.readLine());
