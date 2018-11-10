@@ -6,7 +6,17 @@ Income: 22570.0
 Receipts:
 
 Receipt ID: 1
-Date: 4/11/2018
+Date: 04/11/2018
+Kind: Basic
+Amount: 200.0
+Company: Tester
+Country: Greece
+City: Athens
+Street: Syngrou
+Number: 190
+
+Receipt ID: 2
+Date: 10/11/2018
 Kind: Basic
 Amount: 200.0
 Company: Tester

@@ -2,13 +2,13 @@ package incometaxcalculator.data.management;
 
 import incometaxcalculator.exceptions.WrongReceiptDateException;
 
-import java.text.DateFormat;
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Receipt {
 
-    private final int id;
-    private final Date issueDate;
+    private int id;
+    private final String issueDate;
     private final float amount;
     private final String kind;
     private final Company company;
@@ -22,15 +22,14 @@ public class Receipt {
         this.company = company;
     }
 
-    private Date createDate(String issueDate) throws WrongReceiptDateException {
+    private String createDate(String issueDate) throws WrongReceiptDateException {
         String token[] = issueDate.split("/");
         if (token.length != 3) {
             throw new WrongReceiptDateException();
         }
-        int day = Integer.parseInt(token[0]);
-        int month = Integer.parseInt(token[1]);
-        int year = Integer.parseInt(token[2]);
-        return new Date(day, month, year);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate localDate = LocalDate.parse(issueDate, formatter);
+        return localDate.format(formatter);
     }
 
     public int getId() {
@@ -38,7 +37,7 @@ public class Receipt {
     }
 
     public String getIssueDate() {
-        return issueDate.toString();
+        return issueDate;
     }
 
     public float getAmount() {

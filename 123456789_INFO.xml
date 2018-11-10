@@ -6,7 +6,17 @@
 <Receipts>
 
 <ReceiptID> 1 </ReceiptID>
-<Date> Fri Jun 10 00:00:00 EET 1910 </Date>
+<Date> 04/11/2018 </Date>
+<Kind> Basic </Kind>
+<Amount> 200.0 </Amount>
+<Company> Tester </Company>
+<Country> Greece </Country>
+<City> Athens </City>
+<Street> Syngrou </Street>
+<Number> 190 </Number>
+
+<ReceiptID> 2 </ReceiptID>
+<Date> 10/11/2018 </Date>
 <Kind> Basic </Kind>
 <Amount> 200.0 </Amount>
 <Company> Tester </Company>
