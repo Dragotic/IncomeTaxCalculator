@@ -26,6 +26,7 @@ import javax.swing.JTextPane;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
 
+import incometaxcalculator.data.management.Company;
 import incometaxcalculator.data.management.Receipt;
 import incometaxcalculator.data.management.TaxpayerManager;
 import incometaxcalculator.exceptions.ReceiptAlreadyExistsException;
@@ -121,7 +122,7 @@ public class TaxpayerData extends JFrame {
                     numberValue = Integer.parseInt(number.getText());
                     try {
                         taxpayerManager.addReceipt(receiptIDValue, dateValue, amountValue, kindValue,
-                                companyValue, countryValue, cityValue, streetValue, numberValue,
+                                new Company(companyValue, countryValue, cityValue, streetValue, numberValue),
                                 taxRegistrationNumber);
                         receiptsModel.addElement(receiptIDValue);
                     } catch (IOException e1) {

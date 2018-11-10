@@ -25,14 +25,12 @@ public class TaxpayerManager {
 
     }
 
-    public void createReceipt(int receiptId, String issueDate, float amount, String kind,
-                              String companyName, String country, String city, String street, int number,
-                              int taxRegistrationNumber) throws WrongReceiptKindException, WrongReceiptDateException {
+    public void createReceipt(Receipt receipt, int taxRegistrationNumber)
+            throws WrongReceiptKindException {
 
-        Receipt receipt = new Receipt(receiptId, issueDate, amount, kind,
-                new Company(companyName, country, city, street, number));
         taxpayerHashMap.get(taxRegistrationNumber).addReceipt(receipt);
-        receiptOwnerTRN.put(receiptId, taxRegistrationNumber);
+        receiptOwnerTRN.put(receipt.getId(), taxRegistrationNumber);
+
     }
 
     public void removeTaxpayer(int taxRegistrationNumber) {
@@ -47,16 +45,13 @@ public class TaxpayerManager {
         }
     }
 
-    public void addReceipt(int receiptId, String issueDate, float amount, String kind,
-                           String companyName, String country, String city, String street, int number,
-                           int taxRegistrationNumber) throws IOException, WrongReceiptKindException,
-            WrongReceiptDateException, ReceiptAlreadyExistsException {
+    public void addReceipt(Receipt receipt, int taxRegistrationNumber)
+            throws IOException, WrongReceiptKindException, ReceiptAlreadyExistsException {
 
-        if (containsReceipt(receiptId)) {
+        if (containsReceipt(receipt.getId())) {
             throw new ReceiptAlreadyExistsException();
         }
-        createReceipt(receiptId, issueDate, amount, kind, companyName, country, city, street, number,
-                taxRegistrationNumber);
+        createReceipt(receipt, taxRegistrationNumber);
         updateFiles(taxRegistrationNumber);
     }
 
