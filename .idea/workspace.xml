@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="fix size method violations for io">
+    <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/InfoWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/InfoWriter.class" afterDir="false" />
@@ -14,9 +14,6 @@
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLLogWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLLogWriter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/TaxpayerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/TaxpayerManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/incometaxcalculator/gui/TaxpayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/incometaxcalculator/gui/TaxpayerData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,14 +106,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2462" />
-          <entry key="txt" value="170" />
+          <entry key="java" value="2463" />
+          <entry key="txt" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2462" />
-          <entry key="PLAIN_TEXT" value="170" />
+          <entry key="JAVA" value="2463" />
+          <entry key="PLAIN_TEXT" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -169,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="26" column="90" lean-forward="true" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
+            <state relative-caret-position="276">
+              <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
               <folding>
                 <element signature="e#3703#3704#0" expanded="true" />
                 <element signature="e#3738#3739#0" expanded="true" />
@@ -403,7 +400,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541874791404" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541875211989" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -549,7 +546,7 @@
       <workItem from="1541449018098" duration="1164000" />
       <workItem from="1541701604957" duration="5793000" />
       <workItem from="1541797584658" duration="5090000" />
-      <workItem from="1541870943910" duration="3845000" />
+      <workItem from="1541870943910" duration="4160000" />
     </task>
     <task id="LOCAL-00001" summary="created tests for txt info, txt log, xml info, xml log writers">
       <created>1539546432611</created>
@@ -593,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541802677800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix size method violations for io and receipt">
+      <created>1541875016052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541875016052</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -629,13 +633,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51253000" />
+    <option name="totallyTimeSpent" value="51568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -654,7 +658,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.35995087" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32819384" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32929516" />
-      <window_info anchor="bottom" id="CheckStyle" order="12" visible="true" weight="0.3171806" />
+      <window_info active="true" anchor="bottom" id="CheckStyle" order="12" visible="true" weight="0.3171806" />
       <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Code scanning results" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -682,7 +686,8 @@
     <MESSAGE value="fix an error in file reader" />
     <MESSAGE value="fix size violations for io" />
     <MESSAGE value="fix size method violations for io" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix size method violations for io" />
+    <MESSAGE value="fix size method violations for io and receipt" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix size method violations for io and receipt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/exceptions/WrongTaxpayerStatusException.java">
@@ -1047,8 +1052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="26" column="90" lean-forward="true" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
+        <state relative-caret-position="276">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
           <folding>
             <element signature="e#3703#3704#0" expanded="true" />
             <element signature="e#3738#3739#0" expanded="true" />

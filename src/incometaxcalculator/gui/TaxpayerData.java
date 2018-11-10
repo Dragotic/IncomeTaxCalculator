@@ -121,8 +121,8 @@ public class TaxpayerData extends JFrame {
                     streetValue = street.getText();
                     numberValue = Integer.parseInt(number.getText());
                     try {
-                        taxpayerManager.addReceipt(receiptIDValue, dateValue, amountValue, kindValue,
-                                new Company(companyValue, countryValue, cityValue, streetValue, numberValue),
+                        taxpayerManager.addReceipt(new Receipt(receiptIDValue, dateValue, amountValue, kindValue,
+                                new Company(companyValue, countryValue, cityValue, streetValue, numberValue)),
                                 taxRegistrationNumber);
                         receiptsModel.addElement(receiptIDValue);
                     } catch (IOException e1) {
