@@ -6,16 +6,21 @@ import incometaxcalculator.exceptions.WrongReceiptKindException;
 
 public abstract class Taxpayer {
 
-    protected final String fullname;
-    protected final int taxRegistrationNumber;
-    protected final float income;
-    private final double incomeLevels[];
-    private final double min_taxes[];
-    private final double taxLevels[];
-    private float amountPerReceiptsKind[] = new float[5];
+    private final String fullname;
+    private final int taxRegistrationNumber;
+    private final float income;
+    private final double[] incomeLevels;
+    private final double[] minTaxes;
+    private final double[] taxLevels;
+    private float[] amountPerReceiptsKind = new float[5];
     private int totalReceiptsGathered = 0;
-    private HashMap<Integer, Receipt> receiptHashMap = new HashMap<Integer, Receipt>(0);
-    private final String receiptKinds[] = {"Entertainment", "Basic", "Travel", "Health", "Other"};
+    private HashMap<Integer, Receipt> receiptHashMap =
+            new HashMap<Integer, Receipt>(0);
+    private final String[] receiptKinds = {"Entertainment", "Basic",
+                                            "Travel", "Health",
+                                            "Other"};
+    private static final double[] VAR_TAX_LEVELS = {0.2, 0.4, 0.6};
+    private static final double[] VAR_TAXES = {0.08, 0.04, -0.15};
 
     public double calculateBasicTax() {
         for (int i = 0; i < incomeLevels.length; i++) {
@@ -23,23 +28,28 @@ public abstract class Taxpayer {
                 if (i == 0) {
                     return taxLevels[i] * income;
                 }
-                return min_taxes[i] + taxLevels[i] * (income - incomeLevels[i-1]);
+                return minTaxes[i] + taxLevels[i]
+                        * (income - incomeLevels[i - 1]);
             }
         }
 
-        return min_taxes[min_taxes.length - 1] + taxLevels[taxLevels.length - 1] * (income - incomeLevels[incomeLevels.length - 1]);
+        return minTaxes[minTaxes.length - 1]
+                + taxLevels[taxLevels.length - 1]
+                * (income - incomeLevels[incomeLevels.length - 1]);
     }
 
-    protected Taxpayer(String fullname, int taxRegistrationNumber, float income, double incomeLevels[], double taxLevels[], double min_taxes[]) {
+    protected Taxpayer(final String fullname, final int taxRegistrationNumber,
+                       final float income, final double[] incomeLevels,
+                       final double[] taxLevels, final double[] minTaxes) {
         this.fullname = fullname;
         this.taxRegistrationNumber = taxRegistrationNumber;
         this.income = income;
         this.incomeLevels = incomeLevels;
         this.taxLevels = taxLevels;
-        this.min_taxes = min_taxes;
+        this.minTaxes = minTaxes;
     }
 
-    public void addReceipt(Receipt receipt) throws WrongReceiptKindException {
+    public void addReceipt(final Receipt receipt) throws WrongReceiptKindException {
         for (int i = 0; i < amountPerReceiptsKind.length; i++) {
             if (receipt.getKind().equals(receiptKinds[i])) {
                 amountPerReceiptsKind[i] += receipt.getAmount();
@@ -53,7 +63,7 @@ public abstract class Taxpayer {
         }
     }
 
-    public void removeReceipt(int receiptId) throws WrongReceiptKindException {
+    public void removeReceipt(final int receiptId) throws WrongReceiptKindException {
         Receipt receipt = receiptHashMap.get(receiptId);
         for (int i = 0; i < amountPerReceiptsKind.length; i++) {
             if (receipt.getKind().equals(receiptKinds[i])) {
@@ -86,11 +96,9 @@ public abstract class Taxpayer {
 
     public double getVariationTaxOnReceipts() {
         float totalAmountOfReceipts = getTotalAmountOfReceipts();
-        double[] levels = {0.2, 0.4, 0.6};
-        double[] variations = {0.08, 0.04, -0.15};
-        for(int i = 0; i < 3; i++) {
-            if (totalAmountOfReceipts < levels[i] * income) {
-                return calculateBasicTax() * variations[i];
+        for (int i = 0; i < 3; i++) {
+            if (totalAmountOfReceipts < VAR_TAX_LEVELS[i] * income) {
+                return calculateBasicTax() * VAR_TAXES[i];
             }
         }
         return calculateBasicTax() * -0.30;
@@ -108,7 +116,7 @@ public abstract class Taxpayer {
         return totalReceiptsGathered;
     }
 
-    public float getAmountOfReceiptKind(short kind) {
+    public float getAmountOfReceiptKind(final short kind) {
         return amountPerReceiptsKind[kind];
     }
 

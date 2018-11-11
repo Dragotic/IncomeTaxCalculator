@@ -3,20 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="5b00ad5c-edb5-4640-a406-91820e22ba5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/121212121_INFO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/121212121_INFO.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/121212121_INFO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/121212121_INFO.xml" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReaderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/FileReaderFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/InfoWriterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/InfoWriterFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/LogWriterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/LogWriterFactory.class" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTInfoWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTInfoWriterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLInfoWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLInfoWriterTest.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/TXTInfoWriterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/io/XMLInfoWriterTest.class" beforeDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/Company.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/HeadOfHouseholdTaxpayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/HeadOfHouseholdTaxpayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/Receipt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/SingleTaxpayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/SingleTaxpayer.class" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/Taxpayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/Taxpayer.class" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/TaxpayerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/TaxpayerFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/TaxpayerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/data/management/TaxpayerManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$1.class" afterDir="false" />
@@ -26,11 +38,16 @@
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$4$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/incometaxcalculator/gui/TaxpayerData.class" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,17 +81,19 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
           <entry key="io" value="1" />
-          <entry key="java" value="78" />
+          <entry key="java" value="91" />
           <entry key="management" value="1" />
           <entry key="project" value="1" />
           <entry key="txt" value="5" />
@@ -85,7 +104,7 @@
         <counts>
           <entry key="Eclipse" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="91" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="UML" value="2" />
         </counts>
@@ -93,7 +112,7 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1945" />
+          <entry key="java" value="2455" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
@@ -101,7 +120,7 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1945" />
+          <entry key="JAVA" value="2455" />
           <entry key="PLAIN_TEXT" value="32" />
         </counts>
       </usages-collector>
@@ -184,6 +203,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -197,33 +217,66 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Receipt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="545">
               <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1695">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="644">
               <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -231,6 +284,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="405">
               <caret line="28" column="63" lean-forward="true" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
             </state>
@@ -251,6 +305,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
               <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+=======
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -265,6 +323,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>min_taxes</find>
+      <find>min_</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -293,7 +357,6 @@
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/TXTLogWriter.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/Address.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/gui/TaxpayerData.java" />
-        <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReader.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java" />
@@ -304,10 +367,15 @@
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReaderFactory.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/InfoWriterFactory.java" />
         <option value="$PROJECT_DIR$/src/incometaxcalculator/data/io/LogWriterFactory.java" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java" />
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTInfoWriterTest.java" />
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java" />
         <option value="$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java" />
+        <option value="$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -343,6 +411,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,6 +453,7 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< Updated upstream
             <path>
               <item name="IncomeTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="IncomeTaxCalculator" type="462c0819:PsiDirectoryNode" />
@@ -423,11 +493,12 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,7 +507,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541928880699" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541929096659" />
+>>>>>>> Stashed changes
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -548,10 +623,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TXTFileReaderTest" />
+<<<<<<< Updated upstream
         <item itemvalue="JUnit.XMLFileReaderTest" />
         <item itemvalue="JUnit.XMLInfoWriterTest" />
         <item itemvalue="Application.GraphicalInterface" />
         <item itemvalue="JUnit.TXTInfoWriterTest" />
+=======
+        <item itemvalue="Application.GraphicalInterface" />
+        <item itemvalue="JUnit.TXTInfoWriterTest" />
+        <item itemvalue="JUnit.XMLInfoWriterTest" />
+        <item itemvalue="JUnit.XMLFileReaderTest" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +665,12 @@
       <workItem from="1541701604957" duration="5793000" />
       <workItem from="1541797584658" duration="5090000" />
       <workItem from="1541870943910" duration="4160000" />
+<<<<<<< Updated upstream
       <workItem from="1541928342088" duration="539000" />
+=======
+      <workItem from="1541929493347" duration="831000" />
+      <workItem from="1541930957438" duration="664000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="created tests for txt info, txt log, xml info, xml log writers">
       <created>1539546432611</created>
@@ -670,6 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="55697000" />
   </component>
   <component name="ToolWindowManager">
@@ -677,6 +765,15 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
+=======
+    <option name="totallyTimeSpent" value="57272000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="964" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18864469" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -694,8 +791,13 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.35903338" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.3164557" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32929516" />
       <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.3171806" />
+=======
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="CheckStyle" order="12" visible="true" weight="0.31687716" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Code scanning results" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -835,8 +937,20 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://C:/SoftDevII-ProjectMaterial-2019/SoftDevII-ProjectMaterial-2019/IncomeTaxCalculatorProject/src/incometaxcalculator/data/io/TXTFileReader.java" />
     <entry file="file://C:/SoftDevII-ProjectMaterial-2019/SoftDevII-ProjectMaterial-2019/IncomeTaxCalculatorProject/src/incometaxcalculator/data/io/FileReader.java" />
+=======
+    <entry file="file://$PROJECT_DIR$/../../../../SoftDevII-ProjectMaterial-2019/SoftDevII-ProjectMaterial-2019/IncomeTaxCalculatorProject/src/incometaxcalculator/data/io/TXTFileReader.java" />
+    <entry file="file://$PROJECT_DIR$/../../../../SoftDevII-ProjectMaterial-2019/SoftDevII-ProjectMaterial-2019/IncomeTaxCalculatorProject/src/incometaxcalculator/data/io/FileReader.java" />
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/bin/incometaxcalculator/gui/ChartDisplay.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -922,6 +1036,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Receipt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -929,6 +1044,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -940,27 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/HeadOfHouseholdTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -978,17 +1074,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/LogWriterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingJointlyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/MarriedFilingSeparatelyTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/XMLInfoWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/FileReaderFactory.java">
+=======
+    <entry file="file://$PROJECT_DIR$/tests/incometaxcalculator/data/io/TXTFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Receipt.java">
+>>>>>>> Stashed changes
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/Taxpayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        <state relative-caret-position="1695">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="140">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+=======
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/HeadOfHouseholdTaxpayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -999,6 +1156,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/io/InfoWriterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1066,6 +1224,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/incometaxcalculator/data/management/TaxpayerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
