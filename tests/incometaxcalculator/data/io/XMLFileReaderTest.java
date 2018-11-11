@@ -19,10 +19,6 @@ class XMLFileReaderTest {
         this.taxpayerManager = new TaxpayerManager();
     }
 
-    @AfterEach
-    void tearDown() {
-    }
-
     @Test
     void readFile()
             throws NumberFormatException, IOException, WrongTaxpayerStatusException,
@@ -36,4 +32,9 @@ class XMLFileReaderTest {
         this.taxpayerManager.loadTaxpayer(taxRegistrationNumberFile);
         assertTrue(this.taxpayerManager.containsTaxpayer(taxRegistrationNumber));
     }
+
+    @AfterEach
+    void tearDown() {
+    }
+
 }

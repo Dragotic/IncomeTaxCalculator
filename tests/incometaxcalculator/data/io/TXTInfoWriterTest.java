@@ -1,5 +1,7 @@
 package incometaxcalculator.data.io;
 
+import incometaxcalculator.data.management.Company;
+import incometaxcalculator.data.management.Receipt;
 import incometaxcalculator.data.management.TaxpayerManager;
 import incometaxcalculator.exceptions.*;
 import org.junit.jupiter.api.BeforeEach;
@@ -22,7 +24,9 @@ public class TXTInfoWriterTest {
 
         try {
             taxpayerManager.createTaxpayer("Test User", taxRegistrationNumber, "Single", 20000);
-            taxpayerManager.createReceipt(12344444, "12/10/2018", 20, "Other", "Zara", "Greece", "Athens", "Ermou", 10, taxRegistrationNumber);
+            taxpayerManager.createReceipt(new Receipt(12344444, "12/10/2018", 20, "Other",
+                                        new Company("Zara", "Greece", "Athens", "Ermou", 10)),
+                                        taxRegistrationNumber);
         } catch (WrongTaxpayerStatusException | WrongReceiptDateException | WrongReceiptKindException e) {
             e.printStackTrace();
         }

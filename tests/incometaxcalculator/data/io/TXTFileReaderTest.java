@@ -19,11 +19,6 @@ class TXTFileReaderTest {
         this.taxpayerManager = new TaxpayerManager();
     }
 
-    @AfterEach
-    void tearDown() {
-
-    }
-
     @Test
     void readFile()
             throws NumberFormatException, IOException, WrongTaxpayerStatusException,
@@ -38,4 +33,11 @@ class TXTFileReaderTest {
 
         assertTrue(this.taxpayerManager.containsTaxpayer(taxRegistrationNumber));
     }
+
+    @AfterEach
+    void tearDown() {
+
+    }
+
+
 }

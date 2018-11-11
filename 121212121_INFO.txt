@@ -6,7 +6,7 @@ Income: 20000.0
 Receipts:
 
 Receipt ID: 12344444
-Date: Sat May 11 00:00:00 EET 1918
+Date: 12/10/2018
 Kind: Other
 Amount: 20.0
 Company: Zara

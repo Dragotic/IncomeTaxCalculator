@@ -3,7 +3,6 @@ package incometaxcalculator.data.io;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-import incometaxcalculator.data.management.Address;
 import incometaxcalculator.data.management.Company;
 import incometaxcalculator.data.management.Receipt;
 import incometaxcalculator.data.management.TaxpayerManager;
