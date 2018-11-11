@@ -2,9 +2,12 @@ package incometaxcalculator.data.io;
 
 import incometaxcalculator.exceptions.WrongFileEndingException;
 
-public class FileReaderFactory {
+public final class FileReaderFactory {
 
-    public static FileReader createFileReader(String fileFormat)
+    private FileReaderFactory() {
+    }
+
+    public static FileReader createFileReader(final String fileFormat)
             throws WrongFileEndingException {
 
         if (fileFormat.equals("txt")) {

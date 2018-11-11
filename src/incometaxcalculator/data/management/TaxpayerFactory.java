@@ -2,9 +2,14 @@ package incometaxcalculator.data.management;
 
 import incometaxcalculator.exceptions.WrongTaxpayerStatusException;
 
-public class TaxpayerFactory {
+public final class TaxpayerFactory {
 
-    public static Taxpayer createTaxpayer(String status, String fullname, int taxRegistrationNumber, float income) throws WrongTaxpayerStatusException {
+    private TaxpayerFactory() { }
+
+    public static Taxpayer createTaxpayer(final String status, final String fullname,
+                                          final int taxRegistrationNumber,
+                                          final float income)
+            throws WrongTaxpayerStatusException {
 
         if (status.equals("Married Filing Jointly")) {
             return new MarriedFilingJointlyTaxpayer(fullname, taxRegistrationNumber, income);

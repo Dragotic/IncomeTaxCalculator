@@ -2,7 +2,10 @@ package incometaxcalculator.data.io;
 
 import incometaxcalculator.exceptions.WrongFileFormatException;
 
-public class LogWriterFactory {
+public final class LogWriterFactory {
+
+    private LogWriterFactory() {
+    }
 
     public static LogWriter createLogWriter(final String fileFormat)
             throws WrongFileFormatException {
