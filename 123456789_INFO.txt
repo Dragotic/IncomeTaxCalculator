@@ -25,3 +25,13 @@ City: Athens
 Street: Syngrou
 Number: 190
 
+Receipt ID: 3
+Date: 02/12/2018
+Kind: Basic
+Amount: 200.0
+Company: Tester
+Country: Greece
+City: Athens
+Street: Syngrou
+Number: 190
+

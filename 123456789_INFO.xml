@@ -25,3 +25,13 @@
 <Street> Syngrou </Street>
 <Number> 190 </Number>
 
+<ReceiptID> 3 </ReceiptID>
+<Date> 02/12/2018 </Date>
+<Kind> Basic </Kind>
+<Amount> 200.0 </Amount>
+<Company> Tester </Company>
+<Country> Greece </Country>
+<City> Athens </City>
+<Street> Syngrou </Street>
+<Number> 190 </Number>
+

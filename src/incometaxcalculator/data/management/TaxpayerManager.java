@@ -72,17 +72,11 @@ public class TaxpayerManager {
 
     private void updateFiles(final int taxRegistrationNumber)
             throws IOException {
-//        InfoWriter writer = InfoWriterFactory.createInfoWriter(taxRegistrationNumber);
-//        writer.generateFile(taxRegistrationNumber);
-        // TODO: Ask professor the logic behind this method
-        if (new File(taxRegistrationNumber + "_INFO.xml").exists()) {
-            new XMLInfoWriter().generateFile(taxRegistrationNumber);
-        } else {
-            new TXTInfoWriter().generateFile(taxRegistrationNumber);
-            return;
-        }
-        if (new File(taxRegistrationNumber + "_INFO.txt").exists()) {
-            new TXTInfoWriter().generateFile(taxRegistrationNumber);
+        InfoWriter[] writers = InfoWriterFactory.createInfoWriter(taxRegistrationNumber);
+        for (int i = 0; i < writers.length; i++) {
+            if (writers[i] != null) {
+                writers[i].generateFile(taxRegistrationNumber);
+            }
         }
     }
 
